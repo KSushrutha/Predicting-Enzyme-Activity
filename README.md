@@ -56,7 +56,7 @@ From the `EnzymePrediction.ipynb` notebook:
 - Low Km indicates moderate substrate affinity.  
 - The Lineweaver-Burk plot shows a straight red line through the actual data points (blue), confirming the model fit.
 
-![Lineweaver-Burk Plot](./images/catalase_lineweaver_burk.png)
+![Lineweaver-Burk Plot](./images/OutputGraph.png)
 
 > 💡 **Tip:** Use the y-intercept for Vmax and the x-intercept for Km to compare enzyme performance under different conditions.
 
