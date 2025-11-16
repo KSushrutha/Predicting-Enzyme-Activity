@@ -41,6 +41,27 @@ To view the specific code, calculated output values, and the generated Lineweave
 
 ---
 
+## 📊 Example Output for T=37°C, pH=7.0
+
+From the `EnzymePrediction.ipynb` notebook:
+
+- **Confidence Score (R²):** 0.9999 → near perfect fit  
+- **Mean Squared Error (MSE):** 0.0000 → regression line matches data perfectly  
+- **Vmax:** 3095.21 µM/min → enzyme’s maximum speed  
+- **Km:** 5.562 mM → substrate concentration at half-max speed  
+
+### Interpretation:
+
+- The enzyme works **most efficiently at 37°C, pH=7.0**.  
+- Low Km indicates moderate substrate affinity.  
+- The Lineweaver-Burk plot shows a straight red line through the actual data points (blue), confirming the model fit.
+
+![Lineweaver-Burk Plot](./images/catalase_lineweaver_burk.png)
+
+> 💡 **Tip:** Use the y-intercept for Vmax and the x-intercept for Km to compare enzyme performance under different conditions.
+
+---
+
 ## 🔬 Interpreting the Results
 
 The output values show enzyme performance under a specific condition (e.g., 37°C, pH 7.0):
@@ -76,7 +97,7 @@ The output values show enzyme performance under a specific condition (e.g., 37°
    - Compute $R^2$ score as a confidence metric.  
    - Determine kinetic parameters:  
      - $V_{\text{max}} = 1/\text{Intercept}$  
-     - $K_m = \text{Slope} \times V_{\text{max}}$  
+     - $K_m = \text{Slope} \times $V_{\text{max}}$  
 
 4. **📈 Visualization**  
    - Plot Lineweaver-Burk using matplotlib.  
@@ -85,4 +106,3 @@ The output values show enzyme performance under a specific condition (e.g., 37°
 > 💡 **Tip:** Compare Vmax and Km across different temperatures or pH to determine optimal conditions for the enzyme.
 
 ---
-
