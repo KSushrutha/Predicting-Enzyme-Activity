@@ -6,7 +6,7 @@ This project uses Python and fundamental machine learning concepts to analyze ra
 
 ## 💻 Tech Stack
 
-The analysis is built using:
+This analysis was performed using:
 
 - 🐍 **Python**
 - 📦 **pandas** — data processing
@@ -40,7 +40,7 @@ Open the `EnzymePrediction.ipynb` notebook to view:
 
 ---
 
-## 📊 Example Output for T=37°C, pH=7.0
+## 📊 Example Results (37°C, pH 7.0)
 
 From `EnzymePrediction.ipynb`:
 
@@ -52,7 +52,7 @@ From `EnzymePrediction.ipynb`:
 ### 🔍 Interpretation
 
 - The enzyme is **most efficient at 37°C, pH 7.0**.  
-- Low Km indicates moderate substrate affinity.  
+- A moderately low $K_m$ suggests reasonable substrate affinity.  
 - The Lineweaver-Burk plot shows a regression line passing directly through the actual data points.
 
 ![Lineweaver-Burk Plot](./images/OutputGraph.png)
@@ -95,9 +95,8 @@ From `EnzymePrediction.ipynb`:
 
 ## ✨ Reflection
 
-One of the biggest challenges in this project was **raising the confidence score as high as possible**. At the start, the model’s accuracy wasn’t great due to inconsistent data. But after refining the dataset and carefully adjusting the inputs, I achieved a **near-perfect R² score**, making the regression extremely reliable.
-
----
+**Early on, the model’s accuracy was limited due to noise and inconsistencies in the data. After refining the dataset and improving preprocessing steps, the regression achieved an almost perfect R² score, demonstrating how crucial high-quality data is for reliable enzyme-kinetic modeling.
+**---
 
 ## 👤 Author
 
