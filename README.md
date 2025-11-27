@@ -95,8 +95,8 @@ From `EnzymePrediction.ipynb`:
 
 ## ✨ Reflection
 
-**Early on, the model’s accuracy was limited due to noise and inconsistencies in the data. After refining the dataset and improving preprocessing steps, the regression achieved an almost perfect R² score, demonstrating how crucial high-quality data is for reliable enzyme-kinetic modeling.
-**---
+Early on, the model’s accuracy was limited due to noise and inconsistencies in the data. After refining the dataset and improving preprocessing steps, the regression achieved an almost perfect R² score, demonstrating how crucial high-quality data is for reliable enzyme-kinetic modeling.
+
 
 ## 👤 Author
 
